@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kruthikk Namasivayam Mohanasundaram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeInDown 1s forwards;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #0073e6;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #005bb5;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #0073e6;
+        }
+        header p {
+            margin: 5px 0 0;
+        }
+        section {
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s forwards;
+        }
+        section:nth-child(even) {
+            animation-delay: 0.5s;
+        }
+        section h2 {
+            font-size: 1.5em;
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            position: relative;
+        }
+        ul li:hover {
+            background-color: #f0f8ff;
+            padding-left: 10px;
+            transition: background-color 0.3s, padding-left 0.3s;
+        }
+        .contact-info a {
+            color: #0073e6;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s forwards;
+            animation-delay: 1s;
+        }
+        .progress-bar {
+            width: 100%;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-bar div {
+            height: 20px;
+            background-color: #0073e6;
+            width: 0;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 20px;
+            color: white;
+            animation: load 2s forwards;
+        }
+        @keyframes fadeInDown {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes load {
+            to {
+                width: var(--width);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#awards">Awards</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Kruthikk Namasivayam Mohanasundaram</h1>
+            <p class="contact-info">Tempe, AZ 85281 • 602-919-9365 • <a href="mailto:kruthikk@asu.edu">kruthikk@asu.edu</a> • <a href="https://www.linkedin.com/in/Kruthikk-namasivayam-mohanasundaram">LinkedIn</a></p>
+        </header>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Master's graduate with expertise in statistical analysis, data visualization, and mining big data sets using Python and SQL-based tools. Passionate about extracting impactful insights through analytical thinking. Familiar with finance industry data and applications.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Master’s in Information Technology</strong>, Arizona State University, Tempe, AZ (August 2022 – May 2024) - <strong>4.0/4.0 GPA</strong>
+                </li>
+                <li>
+                    <strong>Bachelor’s of Engineering in Information Science and Engineering</strong>, Visvesvaraya Technological University, Bangalore, India (August 2018 - July 2022) - <strong>3.6/4.0 GPA</strong>
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, SQL, Java, Python – NumPy and Pandas, AWS</li>
+                <li><strong>Tools, Databases:</strong> MySQL, Tableau, Power BI, Matplotlib, Jira</li>
+                <li><strong>Coursework:</strong> Advanced DBMS, Advanced Big Data/A.I, Data Visualization, Cloud Architecture, Middleware, AI into Cybersecurity</li>
+            </ul>
+            <div class="progress-bar"><div style="--width: 90%;">Python</div></div>
+            <div class="progress-bar"><div style="--width: 85%;">SQL</div></div>
+            <div class="progress-bar"><div style="--width: 80%;">Java</div></div>
+            <div class="progress-bar"><div style="--width: 75%;">AWS</div></div>
+        </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li>
+                    <strong>Intern</strong>, Carbon Masters, Bangalore, India (October 2021 – December 2021)
+                    <ul>
+                        <li>Fielded Tableau dashboards automating inventory tracking with Python and SQL, improving warehouse throughput by <strong>20%</strong> and reducing stockouts by <strong>30%</strong>.</li>
+                        <li>Ensured <strong>99%</strong> supply chain data accuracy through statistical checks in Python and identified integrity issues with SQL queries, increasing process efficiency by <strong>10%</strong> through data analysis.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Student Data Analyst</strong>, Universal Learner Courses, Arizona State University (May 2023 - August 2023)
+                    <ul>
+                        <li>Improved course quality by <strong>32%</strong> through quantitative analysis of student performance, identifying optimal teaching methods based on detailed statistical analysis and course evaluations.</li>
+                        <li>Conveyed interactive Tableau dashboards to visually track student participation, feedback surveys, and learning outcomes. Analytics-driven insights increased student course engagement by <strong>50%</strong>.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Engineering Math Teaching Assistant</strong>, Arizona State University (March 2023 – May 2024)
+                    <ul>
+                        <li>Assisted professor by tailoring teaching methods for different learning styles; tutored engineering undergrads in algebra, calculus, and statistics both in-person and via ALEKS and Canvas online platforms.</li>
+                        <li>Incorporated student performance data, identifying improvements that increased course quality by <strong>30%</strong> and student engagement by <strong>50%</strong>; provided input to optimize ALEKS, Canvas, and Gradarius platforms.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Book Exchange Project</strong>, Arizona State University (Dec 2023)
+                    <ul>
+                        <li>Led the development of the Book Exchange Project, utilizing JavaScript, Node.js, and MongoDB, creating a vibrant community of book enthusiasts and increasing platform engagement by <strong>40%</strong>.</li>
+                        <li>Implemented robust user authentication and authorization using JSON Web Tokens (JWT), significantly enhancing security, and reducing unauthorized access incidents by <strong>90%</strong>.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Disease Prediction Based on Symptoms</strong>, Arizona State University (Dec 2023)
+                    <ul>
+                        <li>Spearheaded the development of a Disease Prediction System using machine learning techniques, enabling up to <strong>65%</strong> earlier detection of conditions like cancer and diabetes, significantly improving patient outcomes.</li>
+                        <li>Led the deployment of AI solutions in healthcare systems, enhancing medical outcomes, cost efficiency, and quality of life while ensuring global accessibility to diverse populations.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Highly Scalable Database Website using AWS</strong>, Arizona State University (May 2023)
+                    <ul>
+                        <li>Established a highly available web application on AWS, achieving <strong>99.99%</strong> uptime by load balancing across multiple EC2 instances.</li>
+                        <li>Automated scalability using launch templates, dynamically adjusting resources based on demand, and reducing infrastructure costs by <strong>30%</strong>.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong><a href="https://www.irjmets.com/uploadedfiles/paper//issue_7_july_2022/28472/final/fin_irjmets1658506384.pdf">Logistical Solution for E-Commerce</a></strong>, SJB Institute of Technology (July 2022)
+                    <ul>
+                        <li>Formulated an RFID-based warehouse management system with Python that improved package tracking accuracy to <strong>99%</strong> and reduced delivery times by <strong>25%</strong> through automated scanning and sensing of tagged inventory.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Supply Chain Database Management System</strong>, Arizona State University (December 2022)
+                    <ul>
+                        <li>Accelerated shipment tracking database integrating SQL and NoSQL, proving capacity to develop finance industry data architectures, improving data query response times by <strong>35%</strong> through optimized database schema and indexes.</li>
+                        <li>Consolidated a retail web application emulating real-world environments, improving customer satisfaction by <strong>80%</strong> based on user testing.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="awards">
+            <h2>Awards and Leadership</h2>
+            <ul>
+                <li>Graduate Engineering Fellowship (Fall 2023)</li>
+                <li>Director of Outreach, Arizona State University, Polytechnic Campus (January 2023 – May 2023)</li>
+                <li>Graduate Leadership Scholarship (January 2023)</li>
+                <li>Graduate Leadership Scholarship (August 2023)</li>
+                <li>Election Commissioner for Graduate Student Government, Arizona State University</li>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy; 2024 Kruthikk Namasivayam Mohanasundaram</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll("section");
+            const options = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationPlayState = 'running';
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+
+            // Progress bars
+            const progressBars = document.querySelectorAll('.progress-bar div');
+            progressBars.forEach(bar => {
+                const width = bar.style.getPropertyValue('--width');
+                bar.style.width = width;
+            });
+        });
+    </script>
+</body>
+</html>
